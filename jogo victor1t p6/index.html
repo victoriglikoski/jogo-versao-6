@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Code - Aula 09</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://pyscript.net/releases/2025.5.1/core.css">
+
+    <script type="module"
+            src="https://pyscript.net/releases/2025.5.1/core.js"></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>🚀 Game Code</h1>
+        <h2>Aula 09 - Cronômetro</h2>
+
+        <section class="informacoes">
+            <p>🪙 Pontos: <span id="placar">0</span></p>
+            <p>❤️ Vidas: <span id="vidas">3</span></p>
+            <p>⏱️ Tempo: <span id="tempo">60</span>s</p>
+        </section>
+
+        <p id="mensagem">
+            Colete as moedas antes que o tempo acabe!
+        </p>
+
+        <div id="jogo">
+            <div id="jogador">🧑‍🚀</div>
+            <div id="moeda">🪙</div>
+            <div id="inimigo">👾</div>
+        </div>
+
+        <p class="instrucoes">
+            Use as setas do teclado para movimentar o astronauta.
+            Colete moedas e desvie do inimigo!
+        </p>
+    </main>
+
+    <script type="py" src="jogo.py"></script>
+</body>
+</html>
